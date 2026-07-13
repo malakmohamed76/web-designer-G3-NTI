@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;  
+   float: right;
+   width: 30%;
+    
+}
+.bg-black{
+    background-color: black;
+}
+ul li{
+ 
+    margin-left: 5%;
+    display: inline-block;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.content-nav{
+    padding: 10px;
+ 
+}
+
+.content-nav h2{
+ display: inline-block;
+  font-size: 30px; 
+}
+
+/* /////////////////////////// */
+.bg-image{
+    background-image: url(../images/stocksnap-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.padding-top-buttom{
+padding :  10% 0px;
+}
+.body{
+    width: 50%;
+    display: inline-block;
+}
+.color-brown{
+    color:darkorange;
+    font-weight: normal;
+}
+.color-white{
+    color: white;
+}
+.body h2{
+    margin-bottom: 3%;
+    font-size: 50px;
+    
+    
+}
+.body h3{
+text-transform: uppercase;
+font-weight: normal;
+font-size: 30px;
+margin-bottom: 4%;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+     height: 100vh;
+}
+.hr-style{
+    width: 7%;
+    margin-bottom: 4%;
+    border: 2px solid white;
+}
+.body p{
+ 
+    text-align: justify;
+    color: #ccc;
+    margin-bottom: 4%;
+    font-size: 18px;
+
+}
+.btn{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 4%;
+}
+.padding-left-right{
+    padding: 0px 7%;
+}
+form{
+    float: right;
+    width: 30%;
+    background-color: white;
+    margin-top: 1%;
+    vertical-align:bottom;
+
+}
+form h2{
+    text-align: center;
+    background-color: #eeeeee;
+
+    padding: 15px;
+
+}
+
+.margin-top{
+    margin-top: 7%;
+}
+.form input{
+    display: block;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 8%;
+
+}
+form button{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 0px;
+    background-color:darkorange;
+    vertical-align: bottom;
+
+}

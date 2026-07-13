@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="">
+    <fieldset>
+        <legend>personal information</legend>
+       <!-- first name -->
+    <label for="UserfirstNme">first name</label>
+    <input type="text" maxlength="5" id="UserfirstNme" pattern="\w{0,5}" name="firstName"            
+            pattern="[A-Za-z]{1,5}"
+            title="Letters only (Max 5 characters)"
+            required> 
+            <br> <br>
+
+
+      <!-- email -->
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email " pattern="[^@\s]+@[^@\s]+" title="Invalid email address" required/> 
+       <br>  <br>
+
+      <!-- phone -->
+    <label for="Phone">Phone</label>
+    <input type="tel" name="Phone" id="Phone" pattern="^01[0-2]\d{1,8}$"  title="Enter a valid Egyptian phone number" required /> 
+      <br>  <br>
+
+      <!-- file -->
+    <label for="image">File</label>
+    <input name="image" type="file" id="image" accept=".png" > 
+     <br>  <br>
+
+     <!-- courses(datalist) -->
+    <label for="courses">courses</label>
+    <input type="text" name="courses" id="courses" list="courses-list" placeholder="choose your course">
+    <datalist id="courses">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Bootstrap">
+            <option value="Node.js">
+        </datalist>
+          <br><br>
+
+
+     <!-- date -->
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date" required>
+    <br> <br>
+
+
+    <!-- comment -->
+    <label for="comment">comment :</label> <br>
+    <textarea name="comment" id="comment" rows="5" cols="20" placeholder="enter your comment" pattern="[A-Za-z ]+"
+            required
+            placeholder="Letters only"></textarea>
+         <br>  <br>
+
+         <!-- range -->
+    <label for="Range">Range</label>
+    <input type="range" id="Range" name="Range" min="100" max="200">
+    <br><br>
+
+    <!-- gender -->
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+   <input type="radio" name="gender" id="female" value="female"> <label for="female">female</label>
+
+   <br><br>
+
+
+   <!-- tracks -->
+   <label> tarcks</label>
+   <input type="checkbox" id="frontend" name="tracks" value="Front End">
+        <label for="frontend">Front End</label>
+
+        <input type="checkbox" id="backend" name="tracks" value="Back End">
+        <label for="backend">Back End</label>
+
+        <input type="checkbox" id="fullstack" name="tracks" value="Full Stack">
+        <label for="fullstack">Full Stack</label>
+       <br>  <br>
+
+
+    <!-- buttons -->
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+  </fieldset>
+
+   </form> 
+
+
+   
+</html>
