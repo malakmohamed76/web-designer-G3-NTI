@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin:8%;
+
+}
+.padding-top-bottom{
+padding: 4% 0px;
+} 
+.card{
+
+    width: 30%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 3%;
+    background-color: white;
+
+    
+}
+.flex-box{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: brown;
+    height: 900px;
+    align-items: flex-start;
+    row-gap: 14px;
+}
+.order-first{
+    order: -1;
+}
+.order-center{
+    align-self: center;
+}
