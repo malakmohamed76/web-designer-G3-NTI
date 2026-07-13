@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display:flex
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.bg-gray{
+    background-color: rgb(230, 230, 230);
+}
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+.card{
+    width: 48%;
+    padding: 1%;
+    transition: 2s;
+
+}
+.card:hover{
+    transform: translateX(100px);
+    transform: translateY(30%);
+    transform: translateX(-30%);
+    transform: translate(50%);
+    transform: translate(50% , 50%);
+    /* transform: rotate(40deg); */
+    /* transform: skewX(50deg); */
+    /* transform: skewY(-50deg); */
+    /* transform: scaleX(1.02); */
+    /* transform:matrix(scaleX, skewY, skewX, scaleY, translateX, translateY)  */
+    /* transform: matrix(1.5,0,0.3,0.5,100,50); */
+}
