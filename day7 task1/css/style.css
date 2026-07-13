@@ -46,11 +46,11 @@ margin:auto;
     color: gray;
 }
 .position-card img{
-    height: 320px;
+    height: 330px;
 }
 .position-card-body {
     height: 100%;
-    padding: 2%;
+    padding: 4%;
     background-color: white;
     position:absolute;
     top: 73%;
@@ -82,9 +82,7 @@ hr{
 
 
 }
-.position-card-body h2{
-    margin-top: 2%;
-}
+
 .position-card:hover .position-card-body{
     top: 0%;
     
