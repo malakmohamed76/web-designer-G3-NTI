@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+::selection{
+    background-color: rgba(40, 94, 103, 1);
+    color: white;
+}
+section {
+    padding-bottom: 10%;
+}
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.aspect-ratio{
+    aspect-ratio: 1/1;
+}
+.bg-light{
+    background-color: rgb(230,230,230);
+}
+.d-block{
+    display: block;
+}
+ul{
+    list-style: none;
+    width: 30%;
+    right: 0;
+    float: right;
+}
+ul li{
+ 
+    margin-right: 5%;
+    padding-top:5px;
+    cursor: pointer;
+}
+.content-nav{
+    padding: 10px;
+ 
+}
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: gray;
+}
+
+
+/* ==================== */
+
+.hero-content h2{
+font-size: 65px;
+font-weight: 600;
+line-height: 1.5;
+
+
+}
+.hero-content p{
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+.hero-content button{
+ padding: 10px 40px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 30px;
+    background-color: rgba(40, 94, 103, 1);
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.hero-images img{
+    width: 40%;
+}
+
+
+/* ===================== */
+.wellbeing-content{
+    width: 100%;
+}
+.wellbeing-item{
+    width: 33%;
+ 
+}
+
+.wellbeing-item  p{
+text-align: justify;
+width: 70%;
+}
+.wellbeing-item img{
+    padding: 7px 13px;
+    background-color: rgba(40, 94, 103, 1);
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.wellbeing{
+    padding: 0% 4%;
+}
+.wellbeing h2{
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+/* ================================================ */
+.features-wrapper .features-image{
+    width: 42%;
+    margin-right: 8%;
+}
+.features-wrapper .features-image img{
+    border-radius: 20px;
+    height: 100%;
+}
+.features-content{
+    width: 45%;
+}
+.feature-item{
+    padding-top: 5%;
+}
+.feature-item img {
+    width: 40px;
+    height: 45px;
+
+    border: 1px solid rgba(40, 94, 103, 1) ;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* ================================================ */
+.cta-content{
+    padding: 9% 0%;
+     padding-bottom: 180px;
+    background-image: url(../images/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+.cta-icon{
+    padding-bottom: 1%;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.cta-content h2{
+    padding: 2% 0%;
+
+}
+.cta-content .cta-btn{
+    border: 1px solid white;
+    padding: 15px 60px;
+    margin-top: 3%;
+    background-color: transparent;
+    color: white;
+    border-radius:20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-feature-cta{
+    position: absolute;
+    background-color: rgba(252, 226, 215, 1);
+    width:90%;
+    top: 83%;
+    left: 5%;
+    justify-content: space-around;
+    padding: 4% 0%;
+    
+    
+    
+}
+
+.cta-feature img{
+width: 60px;
+border: 1px solid black;
+padding: 8px;
+border-radius: 50%;
+}
+
+footer{
+    margin-top: 10%;
+    background-color:rgba(40, 94, 103, 1) ;
+}
+.footer-link{
+    margin-top: 2%;
+}
+.footer-link img{
+    margin-right: 2%;
+}
+
+
+/* =============================== */
+
+/* phone */
+@media (max-width: 767px) {
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.d-none li{
+    display: none;
+} 
+.hero-content h2{
+font-size: 30px;
+font-weight: 400;
+}
+.hero-images{
+    width: 100%;
+}
+
+.hero-images img{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: 2%;
+}
+
+/* ===================== */
+.wellbeing-content{
+    width: 100%;
+    display: block;
+}
+.wellbeing-item{
+    width: 80%;
+        padding-right: 2%;
+    margin-top: 5%;
+    margin: auto;
+    margin-bottom: 5%;
+ 
+}
+
+.wellbeing-content .wellbeing-image{
+    display: none;
+}
+
+.wellbeing-item  p{
+width: 100%;
+}
+
+.wellbeing{
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* ================================================ */
+.features-wrapper{
+    display: block;
+}
+.features-wrapper .features-image{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.features-content{
+    width: 85%;
+    text-align: center;
+}
+
+
+
+/* ================================================ */
+.cta-content{
+    padding: 15% 0%;
+}
+.cta-icon{
+    padding-bottom: 2%;
+}
+
+.cta-content  .cta-text{
+    display: none;
+}
+
+.container-feature-cta{
+text-align: center;
+    width:90%;
+    top: 82%;
+    left: 5%;
+    display: block;
+    padding: 4% 0%;
+    
+    
+    
+}
+.cta-feature{
+    margin-bottom: 2%;
+}
+
+
+
+ footer{
+      margin-top: 50%;
+    }
+
+    .responsive-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .responsive-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .responsive-nav ul li{
+        list-style: none;
+    }
+
+    .footer-link{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .footer-link img{
+        width: 24px;
+        height: 24px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    ul li{
+ 
+    margin-right: 10%;
+}
+
+.hero-content h2{
+font-size: 45px;
+
+}
+.hero-content p{
+padding: 2%;
+   
+}
+
+.hero-images img{
+    width: 45%;
+}
+
+/* ============= */
+
+
+.wellbeing-content .wellbeing-image{
+    display: none;
+}
+
+
+.wellbeing-item{
+    width: 80%;
+    padding-right: 2%;
+    margin-top: 5%;
+ 
+}
+
+.wellbeing-item  p{
+width: 90%;
+}
+
+.wellbeing{
+    padding: 5%;
+    text-align: center;
+}
+
+/* ======================== */
+
+.features-wrapper .features-image{
+    width: 43%;
+    margin-right: 4%;
+}
+.features-content{
+    width: 55%;
+    text-align: justify;
+}
+/* ==================== */
+.container-feature-cta{
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    
+}
+.cta-feature{
+    width: 45%;   
+    text-align: center;
+}
+
+
+.cta-feature img{
+    width: 55px;
+}
+
+/* ================ */
+
+footer{
+    margin-top: 20%;
+}
+.footer-link{
+    margin-top: 8%;
+}
+.responsive-nav {
+    display:block;
+
+}
+.responsive-nav ul{
+    float: left;
+    margin:2% 0%;
+}
+
+
+
+    
+ }
+
