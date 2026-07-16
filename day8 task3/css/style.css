@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+html{
+    background-color: black;
+}
+
+.road{
+    background-image: url(../image/road.png);
+    background-size: cover;
+    height:650px;
+    position: relative;
+}
+ .car{
+    position: absolute;
+   width: 100px;
+   top: 80%;
+   left: 20px;
+   transition: 2s;
+   animation-name:changeBycolor ;
+   animation-duration: 3s;
+   animation-direction: reverse;
+   animation-iteration-count: 3;
+}
+@keyframes changeBycolor{
+    to{
+    left: 20px;
+
+
+    }
+    from{
+      left: 100%;
+    }
+}
+
