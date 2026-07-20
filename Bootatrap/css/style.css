@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.bg-img{
+height: 100vh;
+
+    background-image: url("../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba (3).png");
+    background-repeat: no-repeat;
+    background-size: 130% ;
+    background-position: 5px left;
+}
+
+.content{
+    margin: auto 0%;
+
+}
+.service-img img{
+    height: 350px !important;
+}
+
+.card img{
+    height: 300px !important;
+}
+
+/* sm = 576px */
+@media(max-width:576px){
+
+    .w-sm-100{
+        width:100% !important;
+    }
+
+
+    .content h2{
+        font-size:32px !important;
+    }
+
+
+    .content p{
+        font-size:14px;
+    }
+
+
+    .navbar-brand{
+        font-size:18px;
+    }
+
+}
