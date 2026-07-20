@@ -137,7 +137,6 @@ display: block;
     right:-120px;
 }
 
-/* بعد الهوفر */
 .card-4:hover::before{
     bottom:-70px;
 }
