@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Users</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form class="row gy-3" id="loginForm">
+        <div class="col-md-6">
+          <input
+            type="text"
+            class="form-control"
+            id="userName"
+            placeholder="Enter your name"
+            required
+          />
+
+          <p class="fs-5 text-success mt-2"></p>
+        </div>
+
+        <div class="col-md-6">
+          <input
+            type="email"
+            class="form-control"
+            id="userEmail"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" id="submitBtn">Add User</button>
+        </div>
+      </form>
+
+      <div id="divsContainer"></div>
+    </div>
+
+    <!-- ============================= -->
+
+    <div class="container mt-5">
+      <h1 class="text-primary text-center mb-4">0</h1>
+
+      <div
+        id="scroll-div"
+        class="alert alert-success"
+        style="height: 300px; width: 300px; overflow-y: auto"
+      >
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Sit excepturi fuga nihil
+          iusto magni aut dolorum possimus iste doloribus. Deserunt magni
+          accusamus corrupti fugit dignissimos cupiditate ratione provident, ab
+          dicta, omnis earum explicabo fugiat maiores vitae molestias corporis.
+          Ea repudiandae perspiciatis delectus nisi consectetur magnam nam, a
+          esse. Tempore, in. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Error aliquid fugit nobis. Sequi praesentium quas repellendus
+          pariatur accusantium alias ad!
+        </p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
